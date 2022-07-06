@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "ddabef94f6fdccbd",
+    "type": "split",
+    "children": [
+      {
+        "id": "68effb190cf37989",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Progress tracking.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a99763ae0b416127",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ea3333413f194fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4dc61481e9119ec6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "25ee9dbb35774908",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d6693fa9243d6d02",
+    "type": "split",
+    "children": [
+      {
+        "id": "c69d0584c61296ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c9412724e46d1ba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Progress tracking.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "68effb190cf37989",
+  "lastOpenFiles": [
+    "Progress tracking.md",
+    "Game engine design stuff/Drawing 2022-07-06 10.40.43.excalidraw.md",
+    "General notes.md",
+    "Data Hierarchy/Drawing 2022-07-05 22.01.24.excalidraw.md",
+    "Code Hierarchy/Drawing 2022-07-05 21.49.21.excalidraw.md",
+    "Scribble.md"
+  ]
+}

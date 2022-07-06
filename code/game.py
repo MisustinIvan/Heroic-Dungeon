@@ -5,6 +5,7 @@ import pygame, sys
 from settings import *
 from level import Level
 from title_screen import TitleScreen
+from player import Player
 
 class Game:
     def __init__(self):
@@ -15,6 +16,8 @@ class Game:
         self.clock = pygame.time.Clock()
         pygame.display.set_caption("Heroic Dungeon")
         
+        self.player = Player()
+
         self.level_running = False
 
     def run(self):
@@ -32,7 +35,7 @@ class Game:
             
 
             if self.level_running == False:
-                self.level = Level()
+                self.level = Level(self.player)
                 self.level_running = True
             else:
                 self.level.update()
@@ -42,7 +45,6 @@ class Game:
 
         # --------------- DEBUGAGE ------------------------
 
-            self.screen.fill("Pink")
 
         # ---------------- UPDATE THE GAME 60 TIMES PER SECOND -----------------
             pygame.display.flip()

@@ -1,7 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-WIDTH = 1280
-HEIGHT = 720
+import pygame
+
+WIDTH, HEIGHT = 1920, 1080
 
 FPS = 60
+
+TILESIZE = 64
